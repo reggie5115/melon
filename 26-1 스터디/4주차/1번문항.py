@@ -12,7 +12,6 @@ def solution(s):
         else:
             answer.append(-1)
 
-        # 현재 문자의 위치를 최신 위치로 갱신
-        last_index[ch] = i
+        last_index[ch] = i  # 현재 문자의 위치를 최신 위치로 갱신
 
     return answer
